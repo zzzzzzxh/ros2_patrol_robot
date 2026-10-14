@@ -1,0 +1,6 @@
+[console_scripts]
+get_robot_pose = fishbot_applacation.get_robot_pose:main
+init_robot_pose = fishbot_applacation.init_robot_pose:main
+nav_to_pose = fishbot_applacation.nav_to_pose:main
+waypoint_follow = fishbot_applacation.waypoint_follow:main
+

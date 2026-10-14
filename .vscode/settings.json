@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/ros/chapt7/chapt7_ws/src/fishbot_description",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

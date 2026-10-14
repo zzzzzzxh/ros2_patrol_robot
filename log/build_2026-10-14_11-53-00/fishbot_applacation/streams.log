@@ -1,0 +1,25 @@
+[0.699s] Invoking command in '/home/ros/chapt7/chapt7_ws/src/fishbot_applacation': PYTHONPATH=/home/ros/chapt7/chapt7_ws/build/fishbot_applacation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_applacation build --build-base /home/ros/chapt7/chapt7_ws/build/fishbot_applacation/build install --record /home/ros/chapt7/chapt7_ws/build/fishbot_applacation/install.log --install-scripts $base/lib/fishbot_applacation --single-version-externally-managed install_data
+[0.865s] running egg_info
+[0.865s] writing ../../build/fishbot_applacation/fishbot_applacation.egg-info/PKG-INFO
+[0.865s] writing dependency_links to ../../build/fishbot_applacation/fishbot_applacation.egg-info/dependency_links.txt
+[0.865s] writing entry points to ../../build/fishbot_applacation/fishbot_applacation.egg-info/entry_points.txt
+[0.865s] writing requirements to ../../build/fishbot_applacation/fishbot_applacation.egg-info/requires.txt
+[0.865s] writing top-level names to ../../build/fishbot_applacation/fishbot_applacation.egg-info/top_level.txt
+[0.866s] reading manifest file '../../build/fishbot_applacation/fishbot_applacation.egg-info/SOURCES.txt'
+[0.867s] adding license file 'LICENSE'
+[0.867s] writing manifest file '../../build/fishbot_applacation/fishbot_applacation.egg-info/SOURCES.txt'
+[0.867s] running build
+[0.867s] running build_py
+[0.867s] running install
+[0.868s] running install_lib
+[0.869s] running install_data
+[0.869s] running install_egg_info
+[0.870s] removing '/home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/python3.10/site-packages/fishbot_applacation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.871s] Copying ../../build/fishbot_applacation/fishbot_applacation.egg-info to /home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/python3.10/site-packages/fishbot_applacation-0.0.0-py3.10.egg-info
+[0.871s] running install_scripts
+[0.885s] Installing get_robot_pose script to /home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/fishbot_applacation
+[0.885s] Installing init_robot_pose script to /home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/fishbot_applacation
+[0.885s] Installing nav_to_pose script to /home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/fishbot_applacation
+[0.886s] Installing waypoint_follow script to /home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/fishbot_applacation
+[0.886s] writing list of installed files to '/home/ros/chapt7/chapt7_ws/build/fishbot_applacation/install.log'
+[0.905s] Invoked command in '/home/ros/chapt7/chapt7_ws/src/fishbot_applacation' returned '0': PYTHONPATH=/home/ros/chapt7/chapt7_ws/build/fishbot_applacation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/chapt7/chapt7_ws/install/fishbot_applacation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_applacation build --build-base /home/ros/chapt7/chapt7_ws/build/fishbot_applacation/build install --record /home/ros/chapt7/chapt7_ws/build/fishbot_applacation/install.log --install-scripts $base/lib/fishbot_applacation --single-version-externally-managed install_data

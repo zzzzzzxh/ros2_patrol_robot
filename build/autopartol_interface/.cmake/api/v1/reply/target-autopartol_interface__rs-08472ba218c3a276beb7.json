@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/ros/chapt7/chapt7_ws/build/autopartol_interface/autopartol_interface__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "autopartol_interface__rs::@0555ffdb26b249410604",
+	"name" : "autopartol_interface__rs",
+	"paths" : 
+	{
+		"build" : "autopartol_interface__rs",
+		"source" : "/home/ros/chapt7/chapt7_ws/build/autopartol_interface/autopartol_interface__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ros/chapt7/chapt7_ws/build/autopartol_interface/autopartol_interface__rs/CMakeFiles/autopartol_interface__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ros/chapt7/chapt7_ws/build/autopartol_interface/autopartol_interface__rs/CMakeFiles/autopartol_interface__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ros/chapt7/chapt7_ws/build/autopartol_interface/rosidl_generator_rs/autopartol_interface/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

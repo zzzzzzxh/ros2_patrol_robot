@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<robot name="first_robot">
+
+    <!-- 机器人主体 -->
+    <link name="base_link">
+
+        <visual>
+            <!-- 相对于link自身坐标系的位置和姿态 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+
+            <geometry>
+                <!-- 圆柱：半径0.1m，高0.2m -->
+                <cylinder radius="0.1" length="0.2"/>
+            </geometry>
+
+            <material name="white">
+                <color rgba="1.0 1.0 1.0 0.5"/>
+            </material>
+
+        </visual>
+
+    </link>
+
+
+    <!-- IMU传感器 -->
+    <link name="imu_link">
+
+        <visual>
+
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+
+            <geometry>
+                <box size="0.02 0.02 0.02"/>
+            </geometry>
+
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.5"/>
+            </material>
+
+        </visual>
+
+    </link>
+
+
+    <!-- 固定连接 -->
+    <joint name="joint_name" type="fixed">
+
+        <!-- 父节点 -->
+        <parent link="base_link"/>
+
+        <!-- 子节点 -->
+        <child link="imu_link"/>
+
+        <!-- IMU相对于base_link的位置 -->
+        <origin xyz="0 0 0.003" rpy="0 0 0"/>
+
+    </joint>
+
+
+</robot>
